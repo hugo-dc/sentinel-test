@@ -13,8 +13,9 @@ edition = "2018"
 
 [dependencies]
 ewasm_api = "0.7"
+libchisel = "0.2"
 pwasm-utils = { path = "wasm-utils" }
-parity-wasm = "0.31"
+parity-wasm = "0.35.2"
 
 [lib]
 crate-type = ["cdylib"]
