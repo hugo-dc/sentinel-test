@@ -1,23 +1,13 @@
 [package]
-name = "sentinel-rs"
-version = "0.0.0"
-authors = ["Alex Beregszaszi <alex@rtfs.hu>"]
-repository = "https://github.com/ewasm/sentinel-rs"
-homepage = "https://github.com/ewasm/sentinel-rs"
-license = "Apache-2.0"
-readme = "README.md"
-description = "Validator and metering injector for eWASM."
-keywords = ["ewasm"]
-publish = false
+name = "sentinel-test"
+version = "0.1.0"
+authors = ["Jose Hugo De la cruz Romero <jhugodc@gmail.com>"]
 edition = "2018"
 
 [dependencies]
 ewasm_api = "0.9"
 pwasm-utils = { path = "wasm-utils" }
 parity-wasm = "0.31"
-
-[lib]
-crate-type = ["cdylib"]
 
 [profile.release]
 lto = true
